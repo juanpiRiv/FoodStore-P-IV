@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-acento-50: #fff7ed;
+  --color-acento-100: #ffedd5;
+  --color-acento-500: #f97316;
+  --color-acento-600: #ea580c;
+  --color-acento-700: #c2410c;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
